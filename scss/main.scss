@@ -1,0 +1,248 @@
+@import "../node_modules/bootstrap/scss/functions";
+
+@import 'bootstrap/scss/bootstrap';
+body {
+	font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(90deg,  #F3F6F7 0%,  #F3F6F7 50%, #788C8C 100%);
+            color: black;
+            margin: 0;
+            padding: 0;
+            
+        }
+		.navbar {
+            background-color: #4B5C64;
+            margin-bottom: 0;
+        }
+
+
+		 .navbar-brand,
+        .navbar-nav .nav-link,
+        .navbar-toggler-icon {
+            color: black !important;
+        }
+		
+
+			.line {
+            width: 100%;
+            border-bottom: 1px solid #000;
+            margin: 20px 0;
+        }
+
+        h1 {
+            color: #4B5C64;
+        }
+
+        p {
+            color: #788C8C;
+        }
+
+			.custom-bg {
+				background-color: #94CBCB;
+			}
+
+			
+        h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: black;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: #666666;
+        }
+          
+		
+		 #main {
+            background-color: #F3F6F7;
+        }
+		 .jumbotron {
+            background-color: #F3F6F7;
+            padding: 2rem 1rem;
+            margin-top: 30px;
+        }
+
+        .jumbotron h1,
+        .jumbotron p {
+            color: #4B5C64;
+        }
+		 .jumbotron .btn-primary,
+        .jumbotron .btn-success {
+            background-color: #94CBCB;
+            color: #F3F6F7;
+        }
+		.jumbotron .btn-primary:hover,
+        .jumbotron .btn-success:hover {
+            background-color: #788C8C;
+        }
+		  .card {
+            background-color: #F3F6F7;
+            border: 1px solid #788C8C;
+        }
+		.card h2,
+        .card h5,
+        .card p,
+        .card-title {
+            color: #4B5C64;
+        }
+		.card-text {
+            color: #788C8C;
+        }
+		.btn-primary {
+            background: linear-gradient(90deg, #94CBCB 0%, #788C8C 100%);
+            border: none;
+            margin-right: 20px;
+        }
+		
+		 .btn-primary:hover {
+            background-color: #788C8C;
+        }
+
+        .colored-icon {
+            color: #4B5C64;
+        }
+
+		.social-icons i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+		footer {
+            background-color:  #94CBCB;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+		.footer-section {
+            margin-bottom: 20px;
+        }
+		.credit-cards img {
+            width: 40px;
+            margin-right: 10px;
+        }
+
+		
+		.btn-success {
+            background-color: #788C8C;;
+            border: none;
+        }
+	
+
+
+h1 {
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+
+label {
+	display: none;
+}
+
+
+
+
+.custom-body {
+            font-family: 'Your-Classy-Font', sans-serif;
+            background-color: #F3F6F7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+		.custom-container {
+            max-width: 600px; /* Adjust the maximum width as needed */
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box; /* Ensure padding and border are included in the width */
+        }
+		.subscription-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box; /* Ensure padding and border are included in the width */
+        }
+
+	
+
+		.input-group-text {
+    background-color: #788C8C;
+    color: #fff;
+}
+
+.container-box {
+    background-color: #F3F6F7;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.col-md-6 input,
+.col-md-6 textarea {
+    margin-top: px;
+}
+
+.btn-primary,
+.btn-success {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.btn-primary.btn-lg {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Additional styling for the buttons to ensure consistency */
+.btn {
+    display: inline-block;
+}
+
+/* Optional: Add margin between the buttons */
+.btn + .btn {
+    margin-left: 10px;
+}
+
+
+$primary: #47d8cc;
+$secondary: #e39161;
+$success: #5b7f6a;
+$info: #4b6f77;
+$warning: #b19360;
+$danger:  #916d6d;
+$light: #e3eef0;
+$dark: #29373b;
+
+
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.1,
+  2: $spacer * 0.33,
+  3: $spacer,
+  4: $spacer * 2,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+) !default;
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$custom-colors: (
+  "primary-light": pink,
+  "secondary-light": red,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

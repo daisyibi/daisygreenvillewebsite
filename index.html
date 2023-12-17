@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Bootstrap demo</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+</head>
+
+<body>
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.15.0/font/bootstrap-icons.css">
+		<!-- Add this to the head of your HTML document -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+		<title>Your Page Title</title>
+		<style>
+
+body {
+	font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(90deg,  #F3F6F7 0%,  #F3F6F7 50%, #788C8C 100%);
+            color: black;
+            margin: 0;
+            padding: 0;
+            
+        }
+		.navbar {
+            background-color: #4B5C64;
+            margin-bottom: 0;
+        }
+
+
+		 .navbar-brand,
+        .navbar-nav .nav-link,
+        .navbar-toggler-icon {
+            color: black !important;
+        }
+		
+
+			.line {
+            width: 100%;
+            border-bottom: 1px solid #000;
+            margin: 20px 0;
+        }
+
+        h1 {
+            color: #4B5C64;
+        }
+
+        p {
+            color: #788C8C;
+        }
+
+			.custom-bg {
+				background-color: #94CBCB;
+			}
+
+			
+        h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: black;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: #666666;
+        }
+          
+		
+		 #main {
+            background-color: #F3F6F7;
+        }
+		 .jumbotron {
+            background-color: #F3F6F7;
+            padding: 2rem 1rem;
+            margin-top: 30px;
+        }
+
+        .jumbotron h1,
+        .jumbotron p {
+            color: #4B5C64;
+        }
+		 .jumbotron .btn-primary,
+        .jumbotron .btn-success {
+            background-color: #94CBCB;
+            color: #F3F6F7;
+        }
+		.jumbotron .btn-primary:hover,
+        .jumbotron .btn-success:hover {
+            background-color: #788C8C;
+        }
+		  .card {
+            background-color: #F3F6F7;
+            border: 1px solid #788C8C;
+        }
+		.card h2,
+        .card h5,
+        .card p,
+        .card-title {
+            color: #4B5C64;
+        }
+		.card-text {
+            color: #788C8C;
+        }
+		.btn-primary {
+            background: linear-gradient(90deg, #94CBCB 0%, #788C8C 100%);
+            border: none;
+            margin-right: 20px;
+        }
+		
+		 .btn-primary:hover {
+            background-color: #788C8C;
+        }
+
+        .colored-icon {
+            color: #4B5C64;
+        }
+
+		.social-icons i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+		footer {
+            background-color:  #94CBCB;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+		.footer-section {
+            margin-bottom: 20px;
+        }
+		.credit-cards img {
+            width: 40px;
+            margin-right: 10px;
+        }
+
+		
+		.btn-success {
+            background-color: #788C8C;;
+            border: none;
+        }
+	
+
+
+h1 {
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+
+label {
+	display: none;
+}
+
+
+
+
+.custom-body {
+            font-family: 'Your-Classy-Font', sans-serif;
+            background-color: #F3F6F7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+		.custom-container {
+            max-width: 600px; /* Adjust the maximum width as needed */
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box; /* Ensure padding and border are included in the width */
+        }
+		.subscription-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box; /* Ensure padding and border are included in the width */
+        }
+
+	
+
+		.input-group-text {
+    background-color: #788C8C;
+    color: #fff;
+}
+
+.container-box {
+    background-color: #F3F6F7;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.col-md-6 input,
+.col-md-6 textarea {
+    margin-top: px;
+}
+
+.btn-primary,
+.btn-success {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.btn-primary.btn-lg {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Additional styling for the buttons to ensure consistency */
+.btn {
+    display: inline-block;
+}
+
+/* Optional: Add margin between the buttons */
+.btn + .btn {
+    margin-left: 10px;
+}
+
+		</style>
+	</head>
+
+	<body>
+
+
+
+		<header class="navbar navbar-expand-lg navbar-light" style="background-color: #94CBCB;">
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+					<ul class="navbar-nav mx-auto">
+						<!-- You can add other navigation items here if needed -->
+					</ul>
+				</div>
+
+				<div class="mx-auto order-0">
+					<span class="navbar-brand mx-auto">GREENVILLE DELI</span>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+
+				<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<img src="images/Greenvillelogo.jpg" width="100" alt="Logo">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+
+		<div class="line"></div>
+
+		<!-- Your additional content goes here -->
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+
+	</html>
+
+
+
+
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+
+
+			<!-- Navigation Links -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Menu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Reservation</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- Icons on the right -->
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="bi bi-telephone-fill"></i>
+						<span class="icon-text">Call Us</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="bi bi-geo-alt-fill"></i>
+						<span class="icon-text">Visit Us</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="bi bi-envelope-fill"></i>
+						<span class="icon-text">Email Us</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="bi bi-person-fill"></i>
+						<span class="icon-text">About Us</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	</header>
+	<main id="#main">
+
+	 
+		<div class="container mt-5 container-box">
+			<div class="row">
+				<!-- Left Column - Paragraph -->
+				<div class="col-md-6">
+					<div class="text-left">
+						<h1 class="display-4">
+							BRINGING QUALITY MUNCH TO DUBLIN
+						</h1>
+						<!-- Buttons -->
+						<div class="mt-4">
+							<a href="#" class="btn btn-primary">View More</a>
+							<a href="#" class="btn btn-success">Food Menu</a>
+						</div>
+					</div>
+				</div>
+		
+				<!-- Right Column - Large Image -->
+				<div class="col-md-6">
+					<img src="images/headerpicture.jpg" class="img-fluid rounded" alt="Large Image">
+				</div>
+			</div>
+		
+			<!-- "Book a Table" Section -->
+			<div class="row mt-5">
+				<div class="col-md-12 text-center">
+					<h3 class="mb-4">Book a Table</h3>
+				</div>
+				<div class="col-md-12">
+					<div class="row justify-content-center">
+						<div class="col-md-6">
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<div class="input-group-text">Name</div>
+								</div>
+								<input type="text" class="form-control" placeholder="Enter your name">
+							</div>
+						</div>
+						<div class="col-md-6 mt-3 mt-md-0">
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<div class="input-group-text">Email</div>
+								</div>
+								<input type="email" class="form-control" placeholder="Enter your email">
+							</div>
+						</div>
+						<div class="col-md-6 mt-3">
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<div class="input-group-text">Phone</div>
+								</div>
+								<input type="tel" class="form-control" placeholder="Enter your phone number">
+							</div>
+						</div>
+						<div class="col-md-6 mt-3">
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<div class="input-group-text">Special Request</div>
+								</div>
+								<input type="text" class="form-control" placeholder="Any special request?">
+							</div>
+						</div>
+						<div class="col-md-12 mt-4">
+							<a href="#" class="btn btn-primary btn-lg">Book Table</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container mt-5">
+			<div class="row">
+		
+				<!-- Title: Our Categories (Left Side) -->
+				<div class="col-md-6">
+					<h2>Our Categories</h2>
+				</div>
+		
+				<div class="container mt-5">
+					<div class="row">
+						<!-- First Category -->
+						<div class="col-md-3">
+							<div class="card" style="width: 100%;">
+								<div class="card-body d-flex flex-column align-items-center">
+									<div class="d-flex align-items-center mb-3">
+										<!-- Replaced with an image -->
+										<img src="images/sandwich1.png" alt="Burger Icon" style="width: 2rem; height: 2rem;">
+										<h5 class="card-title ml-2" style="font-size: 1rem;">Relish Burger</h5>
+									</div>
+									<p class="card-text" style="font-size: 0.8rem;">25 items</p>
+								</div>
+							</div>
+						</div>
+		
+						<!-- Repeat similar structure for additional items -->
+						<div class="col-md-3">
+							<div class="card" style="width: 100%;">
+								<div class="card-body d-flex flex-column align-items-center">
+									<div class="d-flex align-items-center mb-3">
+										<!-- Replaced with another image -->
+										<img src="images/breakfast.png" alt="Pizza Icon" style="width: 2rem; height: 2rem;">
+										<h5 class="card-title ml-2" style="font-size: 1rem;">Delish Pizza</h5>
+									</div>
+									<p class="card-text" style="font-size: 0.8rem;">25 items</p>
+								</div>
+							</div>
+						</div>
+		
+						<div class="col-md-3">
+							<div class="card" style="width: 100%;">
+								<div class="card-body d-flex flex-column align-items-center">
+									<div class="d-flex align-items-center mb-3">
+										<!-- Replaced with another image -->
+										<img src="images/Dessert.png" alt="Hotdog Icon" style="width: 2rem; height: 2rem;">
+										<h5 class="card-title ml-2" style="font-size: 1rem;">Tasty Hotdog</h5>
+									</div>
+									<p class="card-text" style="font-size: 0.8rem;">25 items</p>
+								</div>
+							</div>
+						</div>
+		
+						<div class="col-md-3">
+							<div class="card" style="width: 100%;">
+								<div class="card-body d-flex flex-column align-items-center">
+									<div class="d-flex align-items-center mb-3">
+										<!-- Replaced with another image -->
+										<img src="images/drink.png" alt="Fish Icon" style="width: 2rem; height: 2rem;">
+										<h5 class="card-title ml-2" style="font-size: 1rem;">Savory Fish</h5>
+									</div>
+									<p class="card-text" style="font-size: 0.8rem;">25 items</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+			</div>
+		</div>
+		
+		<div class="container mt-5">
+			<h2>Most Popular Items</h2>
+			<div class="row">
+				<!-- Item 1 -->
+             
+				<div class="col-md-6 mb-4">
+					<div class="card">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="./images/chickensandwich.jpg" class="card-img" alt="Chicken Sandwich Image">
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Chicken Sandwich</h5>
+									<p class="card-text">Delicious chicken sandwich made with fresh ingredients.</p>
+									<p class="card-text">$30.00</p>
+									<div class="d-flex justify-content-end">
+										<!-- Use a button and add a click event to handle redirection -->
+										<button class="btn btn-primary" onclick="redirectToPage('your_target_page.html')">
+											<i class="bi bi-cart"></i> Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+
+				<!-- Item 2 -->
+				<div class="col-md-6 mb-4">
+					<div class="card">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="./images/tunasandwich.jpg" class="card-img" alt="Burger Image">
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Classic Burger</h5>
+									<p class="card-text">Juicy beef patty with fresh toppings on a soft bun.</p>
+									<p class="card-text">$25.00</p>
+									<div class="d-flex justify-content-end">
+										<button class="btn btn-primary">
+											<i class="bi bi-cart"></i> Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 mb-4">
+					<div class="card">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="./images/vegansandwich.jpg" class="card-img" alt="Burger Image">
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Classic Burger</h5>
+									<p class="card-text">Juicy beef patty with fresh toppings on a soft bun.</p>
+									<p class="card-text">$25.00</p>
+									<div class="d-flex justify-content-end">
+										<button class="btn btn-primary">
+											<i class="bi bi-cart"></i> Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 mb-4">
+					<div class="card">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="./images/beefsandwich.jpg" class="card-img" alt="Burger Image">
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Classic Burger</h5>
+									<p class="card-text">Juicy beef patty with fresh toppings on a soft bun.</p>
+									<p class="card-text">$25.00</p>
+									<div class="d-flex justify-content-end">
+										<button class="btn btn-primary">
+											<i class="bi bi-cart"></i> Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 mb-4">
+					<div class="card">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="./images/cheesesandwich.jpg" class="card-img" alt="Burger Image">
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Classic Burger</h5>
+									<p class="card-text">Juicy beef patty with fresh toppings on a soft bun.</p>
+									<p class="card-text">$25.00</p>
+									<div class="d-flex justify-content-end">
+										<button class="btn btn-primary">
+											<i class="bi bi-cart"></i> Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 mb-4">
+					<div class="card">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="./images/bltsandwich.jpg" class="card-img" alt="Burger Image">
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Classic Burger</h5>
+									<p class="card-text">Juicy beef patty with fresh toppings on a soft bun.</p>
+									<p class="card-text">$25.00</p>
+									<div class="d-flex justify-content-end">
+										<button class="btn btn-primary">
+											<i class="bi bi-cart"></i> Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Repeat similar structure for the remaining items -->
+				<!-- Item 3, 4, 5, 6 -->
+
+			</div>
+		</div>
+
+		<div class="container mt-5 text-center">
+			<h1 class="display-5">Tasty and Crunchy</h1>
+			<h2 class="h6">Our Main Deals</h2>
+			<p class="lead mb-4">Explore our delicious menu featuring the finest ingredients and flavors.</p>
+		
+			<div class="row justify-content-center">
+				<!-- Item 1 -->
+				<div class="col-md-3 mb-4">
+					<img src="./images/sandwich2.jpeg" class="img-fluid mb-2" alt="Dish Image">
+					<h5 class="h6">THE CHICKEN CHORIZO</h5>
+					<hr>
+					<div class="text-center">
+						<button class="btn btn-primary">Click for More</button>
+					</div>
+				</div>
+		
+				<!-- Item 2 -->
+				<div class="col-md-3 mb-4">
+					<img src="./images/sandwich3.jpeg" class="img-fluid mb-2" alt="Dish Image">
+					<h5 class="h6">THE MEXICAN MELT</h5>
+					<hr>
+					<div class="text-center">
+						<button class="btn btn-primary">Click for More</button>
+					</div>
+				</div>
+		
+				<!-- Repeat similar structure for additional items (Dish Name 3 to 8) -->
+				<div class="col-md-3 mb-4">
+					<img src="./images/sandwich4.avif" class="img-fluid mb-2" alt="Dish Image">
+					<h5 class="h6">3 CHEESE & HAM</h5>
+					<hr>
+					<div class="text-center">
+						<button class="btn btn-primary">Click for More</button>
+					</div>
+					
+				</div>
+		
+				<div class="col-md-3 mb-4">
+					<img src="./images/sandwich5.jpeg" class="img-fluid mb-2" alt="Dish Image">
+					<h5 class="h6">THE CHRISTMAS SPECIAL
+					</h5>
+					<hr>
+					<div class="text-center">
+						<button class="btn btn-primary">Click for More</button>
+					</div>
+				</div>
+				<div class="col-md-3 mb-4">
+					<img src="./images/sandwich11.webp" class="img-fluid mb-2" alt="Dish Image">
+					<h5 class="h6">THE ASIAN PULLED PORK</h5>
+					<hr>
+					<div class="text-center">
+						<button class="btn btn-primary">Click for More</button>
+					</div>
+				</div>
+				<div class="col-md-3 mb-4">
+					<img src="./images/sandwich7.webp" class="img-fluid mb-2" alt="Dish Image">
+					<h5 class="h6">THE CHRISTMAS VEGAN</h5>
+					<hr>
+					<div class="text-center">
+						<button class="btn btn-primary">Click for More</button>
+					</div>
+				</div>
+				<div class="col-md-3 mb-4">
+					<img src="./images/sandwich8.jpeg" class="img-fluid mb-2" alt="Dish Image">
+					<h5 class="h6">HAM SANDWICH</h5>
+					<hr>
+					<div class="text-center">
+						<button class="btn btn-primary">Click for More</button>
+					</div>
+				</div>
+				<div class="col-md-3 mb-4">
+					<img src="./images/sandwich12.jpeg" class="img-fluid mb-2" alt="Dish Image">
+					<h5 class="h6">GRILLED CHICKEN SANDWICH</h5>
+					<hr>
+					<div class="text-center">
+						<button class="btn btn-primary">Click for More</button>
+					</div>
+				</div>
+		
+				<!-- Repeat the structure for Dish Name 5 to 8 -->
+			</div>
+		</div>
+		<div class="custom-body">
+
+			<div class="custom-container">
+				<div class="subscription-container">
+					<h1>Subscribe for the Latest Offers and Deals</h1>
+					<p>Join our newsletter to stay updated with the latest promotions from Greenville Deli.</p>
+			
+					<form>
+						<div class="form-group">
+							<label for="email" class="sr-only">Email</label>
+							<input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+						</div>
+			
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary">Subscribe</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	
+	
+	</main>
+	  
+	<footer style="background-color:  #94CBCB; padding: 30px 0; margin-top: 50px;">
+		<div class="container">
+			<div class="row">
+				<!-- Left Section -->
+				<div class="col-md-4 footer-section">
+					<h5 style="color: #343a40; border-bottom: 2px solid #4B5C64; padding-bottom: 10px;">Our Offer</h5>
+					<ul style="list-style-type: none; padding: 0; color: #6c757d;">
+						<li>About</li>
+						<li>Reservation</li>
+						<li>Terms & Conditions</li>
+						<li>Privacy and Policy</li>
+						<li>Contact Us</li>
+					</ul>
+					<div class="credit-cards mt-3">
+						<img src="images/Visalogo.png" alt="Visa" style="margin-right: 10px; width: 40px;" />
+						<img src="images/Mastercard-logo.svg.png" alt="Mastercard" style="margin-right: 10px; width: 40px;" />
+						<img src="images/applepay.png" alt="Apple Pay" style="margin-right: 10px; width: 40px;" />
+						<img src="images/googlepay.png" alt="Google Pay" style="width: 40px;" />
+					</div>
+				</div>
+	
+				<!-- Middle Section -->
+				<div class="col-md-4 footer-section text-center">
+					<img src="images/Greenvillelogo.jpg" alt="Logo" style="width: 100px; height: 100px; border-radius: 50%; border: 2px solid #4B5C64; padding: 5px;" />
+					<p class="mt-3" style="color: #6c757d;">123 Main Street, Cityville</p>
+					<p style="color: #6c757d;">Phone: (123) 456-7890</p>
+					<p style="color: #6c757d;">Email: info@example.com</p>
+					<div class="social-icons mt-3">
+						<i class="bi bi-facebook" style="font-size: 1.5rem; color: #4B5C64; margin-right: 10px;"></i>
+						<i class="bi bi-twitter" style="font-size: 1.5rem; color: #4B5C64; margin-right: 10px;"></i>
+						<i class="bi bi-instagram" style="font-size: 1.5rem; color: #4B5C64;"></i>
+					</div>
+				</div>
+	
+				<!-- Right Section -->
+				<div class="col-md-4 footer-section text-right">
+					<h5 style="color: #343a40; border-bottom: 2px solid  #4B5C64; padding-bottom: 10px;">Open Hours</h5>
+					<div style="color: #6c757d;">
+						<p>Monday - 9:00 am - 5:00 pm</p>
+						<p>Tuesday - 9:00 am - 5:00 pm</p>
+						<p>Wednesday - 9:00 am - 5:00 pm</p>
+						<p>Thursday - 9:00 am - 5:00 pm</p>
+						<p>Friday - 9:00 am - 5:00 pm</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+		
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/your-fontawesome-kit.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<script>
+		// Function to redirect to the order page
+		function redirectToPage() {
+			window.location.href = 'your_target_page.html';
+		}
+	</script>
+
+	
+</body>
+
+</html>
